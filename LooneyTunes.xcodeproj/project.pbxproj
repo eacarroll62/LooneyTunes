@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8CA16D524CDE49400B9E450 /* BlankCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA16D424CDE49300B9E450 /* BlankCard.swift */; };
+		A8CA16D724CDEFEE00B9E450 /* TuneDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA16D624CDEFEE00B9E450 /* TuneDetailView.swift */; };
+		A8CA16D924CDF33300B9E450 /* TuneThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA16D824CDF33300B9E450 /* TuneThumb.swift */; };
+		A8CA16DB24CE4F0D00B9E450 /* ExitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA16DA24CE4F0D00B9E450 /* ExitButton.swift */; };
 		A8EF3F2E24CC6D20005755C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EF3F2D24CC6D20005755C9 /* AppDelegate.swift */; };
 		A8EF3F3024CC6D20005755C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EF3F2F24CC6D20005755C9 /* SceneDelegate.swift */; };
 		A8EF3F3224CC6D20005755C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EF3F3124CC6D20005755C9 /* ContentView.swift */; };
 		A8EF3F3424CC6D6E005755C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8EF3F3324CC6D6E005755C9 /* Assets.xcassets */; };
 		A8EF3F3724CC6D6E005755C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8EF3F3624CC6D6E005755C9 /* Preview Assets.xcassets */; };
 		A8EF3F3A24CC6D6E005755C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EF3F3824CC6D6E005755C9 /* LaunchScreen.storyboard */; };
+		A8EF3F4224CC6F04005755C9 /* LooneyTunes.json in Resources */ = {isa = PBXBuildFile; fileRef = A8EF3F4124CC6F04005755C9 /* LooneyTunes.json */; };
+		A8EF3F4424CCA23D005755C9 /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EF3F4324CCA23D005755C9 /* Enumerations.swift */; };
+		A8EF3F4624CCA301005755C9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EF3F4524CCA301005755C9 /* Extensions.swift */; };
+		A8EF3F4A24CCA45B005755C9 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EF3F4924CCA45B005755C9 /* GridView.swift */; };
+		A8EF3F4E24CCAD8D005755C9 /* LooneyTunes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EF3F4D24CCAD8D005755C9 /* LooneyTunes.swift */; };
+		A8EF3F5024CCAFF7005755C9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EF3F4F24CCAFF7005755C9 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8CA16D424CDE49300B9E450 /* BlankCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlankCard.swift; sourceTree = "<group>"; };
+		A8CA16D624CDEFEE00B9E450 /* TuneDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneDetailView.swift; sourceTree = "<group>"; };
+		A8CA16D824CDF33300B9E450 /* TuneThumb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuneThumb.swift; sourceTree = "<group>"; };
+		A8CA16DA24CE4F0D00B9E450 /* ExitButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExitButton.swift; sourceTree = "<group>"; };
 		A8EF3F2A24CC6D20005755C9 /* LooneyTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LooneyTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8EF3F2D24CC6D20005755C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8EF3F2F24CC6D20005755C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,12 @@
 		A8EF3F3624CC6D6E005755C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A8EF3F3924CC6D6E005755C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8EF3F3B24CC6D6E005755C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8EF3F4124CC6F04005755C9 /* LooneyTunes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = LooneyTunes.json; sourceTree = "<group>"; };
+		A8EF3F4324CCA23D005755C9 /* Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
+		A8EF3F4524CCA301005755C9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A8EF3F4924CCA45B005755C9 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		A8EF3F4D24CCAD8D005755C9 /* LooneyTunes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooneyTunes.swift; sourceTree = "<group>"; };
+		A8EF3F4F24CCAFF7005755C9 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +79,20 @@
 				A8EF3F2D24CC6D20005755C9 /* AppDelegate.swift */,
 				A8EF3F2F24CC6D20005755C9 /* SceneDelegate.swift */,
 				A8EF3F3124CC6D20005755C9 /* ContentView.swift */,
+				A8CA16D824CDF33300B9E450 /* TuneThumb.swift */,
+				A8CA16D424CDE49300B9E450 /* BlankCard.swift */,
+				A8CA16D624CDEFEE00B9E450 /* TuneDetailView.swift */,
+				A8CA16DA24CE4F0D00B9E450 /* ExitButton.swift */,
 				A8EF3F3324CC6D6E005755C9 /* Assets.xcassets */,
 				A8EF3F3824CC6D6E005755C9 /* LaunchScreen.storyboard */,
 				A8EF3F3B24CC6D6E005755C9 /* Info.plist */,
 				A8EF3F3524CC6D6E005755C9 /* Preview Content */,
+				A8EF3F4124CC6F04005755C9 /* LooneyTunes.json */,
+				A8EF3F4324CCA23D005755C9 /* Enumerations.swift */,
+				A8EF3F4524CCA301005755C9 /* Extensions.swift */,
+				A8EF3F4924CCA45B005755C9 /* GridView.swift */,
+				A8EF3F4F24CCAFF7005755C9 /* Colors.swift */,
+				A8EF3F4D24CCAD8D005755C9 /* LooneyTunes.swift */,
 			);
 			path = LooneyTunes;
 			sourceTree = "<group>";
@@ -134,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8EF3F3A24CC6D6E005755C9 /* LaunchScreen.storyboard in Resources */,
+				A8EF3F4224CC6F04005755C9 /* LooneyTunes.json in Resources */,
 				A8EF3F3724CC6D6E005755C9 /* Preview Assets.xcassets in Resources */,
 				A8EF3F3424CC6D6E005755C9 /* Assets.xcassets in Resources */,
 			);
@@ -146,9 +177,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8EF3F4624CCA301005755C9 /* Extensions.swift in Sources */,
+				A8CA16DB24CE4F0D00B9E450 /* ExitButton.swift in Sources */,
+				A8CA16D724CDEFEE00B9E450 /* TuneDetailView.swift in Sources */,
+				A8CA16D524CDE49400B9E450 /* BlankCard.swift in Sources */,
+				A8EF3F5024CCAFF7005755C9 /* Colors.swift in Sources */,
 				A8EF3F2E24CC6D20005755C9 /* AppDelegate.swift in Sources */,
+				A8EF3F4A24CCA45B005755C9 /* GridView.swift in Sources */,
 				A8EF3F3024CC6D20005755C9 /* SceneDelegate.swift in Sources */,
 				A8EF3F3224CC6D20005755C9 /* ContentView.swift in Sources */,
+				A8EF3F4E24CCAD8D005755C9 /* LooneyTunes.swift in Sources */,
+				A8EF3F4424CCA23D005755C9 /* Enumerations.swift in Sources */,
+				A8CA16D924CDF33300B9E450 /* TuneThumb.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
